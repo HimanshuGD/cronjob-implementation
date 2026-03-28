@@ -1,0 +1,10 @@
+{
+  "job_id": "job1",
+  "description": "test cron job",
+  "schedule": "*/1 * * * *",
+  "task": {
+    "type": "execute_command",
+    "command": "echo CRON_WORKING"
+  }
+}
+

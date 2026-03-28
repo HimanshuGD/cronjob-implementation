@@ -1,0 +1,9 @@
+{
+  "job_id": "report-001",
+  "description": "Generate the daily sales report.",
+  "schedule": "*/1 * * * *",
+  "task": {
+    "type": "execute_command",
+    "command": "echo 'daily report run at $(date)'"
+  }
+}
